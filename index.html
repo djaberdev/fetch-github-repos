@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work With Guithub API - Fetch Repositories</title>
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Fontawesome -->
+    <script src="https://kit.fontawesome.com/8277a9fb3e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <i class="fa-brands fa-github"></i>
+            <h2>Fetch Github User's Repositories</h2>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="userName" placeholder="Enter Github Username">
+            <button id="fetchBtn">Fetch Repos</button>
+        </div>
+        
+        <div class="result" id="reposContainer">
+            <h3 class="alert-text">No Data To Show.</h3>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
